@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>购物车</title>
+<link type="text/css" rel="stylesheet" href="style/reset.css" />
+<link type="text/css" rel="stylesheet" href="style/main.css" />
+</head>
+
+<body>
+<div class="headerBar">
+	<div class="topBar">
+		<div class="comWidth">
+			<div class="leftArea">
+				<a href="#" class="collection">收藏慕课</a>
+			</div>
+			<div class="rightArea">
+				欢迎来到慕课网！<a href="login.html">[登录]</a><a href="#">[免费注册]</a>
+			</div>
+		</div>
+	</div>
+	<div class="logoBar">
+		<div class="comWidth">
+			<div class="logo fl">
+				<a href="index.html"><img src="images/logo.jpg" alt="慕课网" /></a>
+			</div>
+			<div class="setpBox fr">
+				<div class="step"></div>
+				<ul class="step_text">
+					<li class="s01">我的购物车</li>
+					<li class="s02">填写核对订单</li>
+					<li class="s03">订单提交成功</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="shoppingCart comWidth">
+	<div class="hr_7"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">收货信息</h3>
+		<div class="cart_cont padding_cont">
+			<ul class="cart_list clearfix">
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>选择地区:</span>
+					<div class="select  fl">海淀区5环内<a href="#"><span><img src="images/icon/more.png"></span></a>
+						<ul class="select_show">
+							<li>中关村</li>
+							<li>五道口</li>
+							<li>上地</li>
+						</ul>
+					</div>
+				</li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>详细地址:</span><input type="text" value="最多输入20个字" class="input" ></li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>收货人:</span><input type="text" value="最多输入10个字" class="input" ></li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>手机:</span><input type="text" value="如1234567890" class="input">&nbsp;或固定电话：<input type="text" class="input"><span class="dash">-</span><input type="text" class="input"><span class="dash">-</span><input type="text" class="input"></li>
+				<li><input type="button" class="affirm"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">支付方式</h3>
+		<div class="cart_cont padding_cont">
+			<ul class="cart_list">
+				<li class="radio"> <input type="radio" name="payment" value="微信支付">微信支付</li>
+				<li class="radio"> <input type="radio" name="payment" value="到付现金">现金到付</li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">发票信息</h3>
+		<div class="cart_cont padding_cont">
+			<ul class="cart_list clearfix">
+				
+				<li class="cart_list_li"><span class="cart_list_text"><em><input type="checkbox" name="nation"></em>需要发票</span></li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>发票类型</span>
+				<select name="fason"style="width: 100px; border: #ccc solid 1px;">                 
+				<option value="">增值税</option>                            
+				<option value="">个人</option>                            
+				<option value="">单位</option>                            
+				<option value="">餐饮</option>                            
+				</select>
+				</li>
+				<li class="cart_list_li"><span class="cart_list_text"><em>*</em>发票抬头</span>
+				<select name="fason"style="width: 100px; border: #ccc solid 1px;">                 
+				<option value="">个人</option>                            
+				<option value="">个人</option>                            
+				<option value="">单位</option>                            
+				<option value="">餐饮</option> 
+				<input type="text" value="最多输入10个字" class="input" >                          
+				</select>
+				</li>
+				<li><input type="button" value="保存" class="sure">&nbsp;<input type="button" value="取消" class="sure"></li>
+			</ul>
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">送货清单<a href="#" class="backcar">返回购物车修改</a></h3>
+		<div class="cart_cont">
+			<div class="cart_inner">
+				<div class="cart_head">
+					<div class="cart_item_full t_name">商品名称</div>
+					<div class="cart_item_full t_price">单价</div>
+					<div class="cart_item_full t_return">返现</div>
+					<div class="cart_item_full t_num">数量</div>
+					<div class="cart_item_full t_subtotal">小计</div>
+
+				</div>
+			</div>	
+		</div>
+		<div class="cart_cont">
+			<div class="cart_inner">
+				<div class="cart_body clearfix">
+					<div class="cart_item_full t_name">
+						<div class="cart_info">
+							<img src="images/htc.jpg" alt="">
+							<div class="cart_info_conts">
+								<p class="cart_link"><a href="#">海信卡莎蒂</a></p>
+								<p class="cart_info_full">赠品：海飞丝洗发水</p>
+							</div>
+						</div>
+					</div>
+					<div class="cart_item_full t_price">¥1459.00</div>
+					<div class="cart_item_full t_return">¥20.00</div>
+					<div class="cart_item_full t_num">1</div>
+					<div class="cart_item_full t_subtotal">1</div>
+
+
+				</div>
+			</div>	
+		</div>
+		<div class="cart_message">
+			若有问题请留言
+		</div>
+		<div class="cart_promt"><i class="cart_promt_icon"></i>抱歉，一下商品不能购买</div>
+		<div class="cart_cont">
+			<div class="cart_inner">
+				<div class="cart_body clearfix">
+					<div class="cart_item_full t_name">
+						<div class="cart_info clearfix">
+							<img src="images/htc.jpg" alt="">
+							<div class="cart_info_no fl">
+								<p class="cart_link_no"><a href="#">心心相印</a></p>
+								<p class="cart_link_no"><a href="#">数量：1件</a></p>
+								<p class="cart_link_no"><a href="#">价格：(¥49.00)</a></p>
+							</div>
+						</div>
+					</div>
+					
+
+				</div>
+			</div>	
+		</div>
+	</div>
+	<div class="hr"></div>
+	<div class="cart_item">
+		<h3 class="cart_tit">订单结算</h3>
+		<div class="cart_cont clearfix">
+			<div class="cart_count fr">
+				<div class="cart_rmb">
+					<i>总计：</i><span>¥145955555.00</span>
+				</div>
+				<div class="cart_btnBox">
+				<input type="button" class="cart_btn" value="提交订单">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="hr"></div>
+<div class="footer">
+	<div class="footer_text">
+		<p><a href="#">慕课简介|</a><a href="#">慕课公告|</a><a href="#">招纳贤士|</a> <a href="#">联系我们|</a>客服热线：400-675-1234</p>
+		<p>Copyright<span>&copy;</span>2006 - 2014 慕课版权所有&nbsp;&nbsp;京ICP备09037834号&nbsp;&nbsp;京ICP证B1034-8373号&nbsp;&nbsp;  某市公安局XX分局备案编号：123456789123</p>
+	</div>	
+	<div class="footer_img">
+	<a href="#"><img src="images/footer.jpg" alt="可信网站" /></a><a href="#"><img src="images/footer.jpg" alt="可信网站" /></a><a href="#"><img src="images/footer.jpg" alt="可信网站" /></a><a href="#"><img src="images/footer.jpg" alt="可信网站" /></a>
+	</div>
+</div>
+</body>
+
+</html>
